@@ -12,7 +12,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h2>Login In/h2>
+        <h2>Login In</h2>
         <form method="post" action = "../system/logindeterminator.php">
             <input name="username" placeholder = "username">
             <span id = "email">Username</span>
