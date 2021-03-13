@@ -14,7 +14,7 @@ $outputs = $lastvisitornumber->fetch_array();
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-    <button type="button" class="btn btn-danger">Admin Panel Login</button>
+    <button type="button" class="btn btn-danger"><a href="admin/login.php">Admin Panel Login</a></button>
         <div id = "image"></div>
         <div id = "container">
             <div id = "titleText"><h1 id = "text">Welcome to Isil Collage Robotics Coding Stand</h1>
