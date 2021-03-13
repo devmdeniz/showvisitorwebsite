@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: #2980b9;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    background-color: #130f40;
+    padding: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px;
+    border-radius: 7px;
+    width: 300px;
+    height: 400px;
+    margin-right: 80px;
+}
+h2 {
+    position: relative;
+    left: 220px;
+    bottom: 160px;
+    color: white;
+    font-size: 3rem;
+}
+form input {
+    border: none;
+    background: none;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+    width: 70%;
+    transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    outline: none;
+}
+form input[type = "email"], form input[type = "password"]{
+    border: solid 2px #0a3d62;
+    border-radius: 10px;
+}
+form input[type = "submit"]{
+    border: solid 2px #38ada9d7;
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 100px;
+    cursor: pointer;
+}
+form input[type = "email"]:focus, form input[type = "password"]:focus{
+    width: 80%;
+}
+form input[type = "submit"]:hover{
+    background: #38ada9;
+}
+#email {
+    position:relative;
+    bottom: 45px;
+    color: rgba(255, 255, 255, 0);
+    transition: 1s;
+    pointer-events: none;
+    box-shadow: 0, 0, 0, 0.5 white;
+}
+#password {
+    position: relative;
+    bottom: 45px;
+    color: rgba(255, 255, 255, 0);
+    transition: 1s;
+    pointer-events: none;
+}
+form input[type = "email"]:focus ~ #email{
+    transform: translateY(38px);
+    color: rgba(255, 255, 255, 0.651);
+}
+form input[type = "password"]:focus ~ #password{
+    transform: translateY(38px);
+    color:rgba(255, 255, 255, 0.651);
+}
