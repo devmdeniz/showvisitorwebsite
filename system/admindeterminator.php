@@ -12,5 +12,5 @@ if($determinator == "update") {
 } else {
 	$_SESSION["determinator"] = "dashboard";
 }
-
+header("Location: ../admin/admin.php")
 ?>
