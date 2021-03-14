@@ -26,11 +26,11 @@
             </div>
         </header>
         <div class = "sidebar">
-            <center><img src = "../assets/deniz.jpg" class = "profile_image"><h4>MD'K</h4></center>  
+            <center><img src = "../assets/deniz.jpg" class = "profile_image"><h4><?php echo $_SESSION["determinator"];?></h4></center>  
                 <a href = "#"><i class="fas fa-desktop"></i><span>Visitor Number</span></a>
-                <a href = "#"><i class="fas fa-cogs"></i><span>Create Visitor</span></a>
-                <a href = "#"><i class="fas fa-table"></i><span>Update Visitor</span></a>
-                <a href = "#"><i class="fas fa-th"></i><span>Delete Visitor</span></a>
+                <a href = "../system/logindeterminator.php?determinator=create"><i class="fas fa-cogs"></i><span>Create Visitor</span></a>
+                <a href = "../system/logindeterminator.php?determinator=update"><i class="fas fa-table"></i><span>Update Visitor</span></a>
+                <a href = "../system/logindeterminator.php?determinator=delete"><i class="fas fa-th"></i><span>Delete Visitor</span></a>
         </div>
 
 
