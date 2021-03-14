@@ -26,19 +26,15 @@
             </div>
         </header>
         <div class = "sidebar">
-            <img src = "../assets/deniz.jpg" class = "profile_image"><h4>MD'K</h4> 
-                <a href = "#"><i class="fas fa-desktop"></i><span>Dashboard</span></a>
-                <a href = "#"><i class="fas fa-cogs"></i><span>Components</span></a>
-                <a href = "#"><i class="fas fa-table"></i><span>Tables</span></a>
-                <a href = "#"><i class="fas fa-th"></i><span>Form</span></a>
-                <a href = "#"><i class="fas fa-info-circle"></i><span>About</span></a>
-                <a href = "#"><i class="fas fa-sliders-h"></i><span>Settings</span></a>
+            <center><img src = "../assets/deniz.jpg" class = "profile_image"><h4>MD'K</h4></center>  
+                <a href = "#"><i class="fas fa-desktop"></i><span>Visitor Number</span></a>
+                <a href = "#"><i class="fas fa-cogs"></i><span>Create Visitor</span></a>
+                <a href = "#"><i class="fas fa-table"></i><span>Update Visitor</span></a>
+                <a href = "#"><i class="fas fa-th"></i><span>Delete Visitor</span></a>
         </div>
 
 
-        <div class = "content">
-        
-        </div>
+        <div class = "content"></div>
 
 
     </body>
