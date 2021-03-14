@@ -20,7 +20,7 @@
         <header>
             <label for = "check"><i class="fas fa-bars" id = "sidebar_btn"></i></label>
             <div class = "left_area">
-                <h3>Isil Collage<span><?php echo " ". $_SESSION["determinator"];?></span></h3>
+                <h3>Isil Collage<span><?php echo " ". strtoupper($_SESSION["determinator"]);?></span></h3>
             </div>
             <div class="right_area">
                 <a href = "login.php" class = "logout_btn">Logout</a>
