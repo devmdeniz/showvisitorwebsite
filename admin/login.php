@@ -1,3 +1,4 @@
+<?php include("../system/connection.php")?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,16 +7,16 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="../css/adminlogin.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h2>Giriş</h2>
-        <form action = "index.html">
-            <input type = "email" placeholder = "Email">
-            <span id = "email">Email</span>
-            <input type = "password" placeholder = "Password">
+        <h2>Login In</h2>
+        <form method="post" action = "../system/logindeterminator.php">
+            <input name="username" placeholder = "username">
+            <span id = "email">Username</span>
+            <input name="password" type = "password" placeholder = "Password">
             <span id = "password">Password</span>
             <input type = "submit" value = "Login">
         </form>
