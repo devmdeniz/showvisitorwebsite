@@ -20,14 +20,14 @@
         <header>
             <label for = "check"><i class="fas fa-bars" id = "sidebar_btn"></i></label>
             <div class = "left_area">
-                <h3>Isil Collage<span>DevMDeniz</span></h3>
+                <h3>Isil Collage<span><?php echo " ". $_SESSION["determinator"];?></span></h3>
             </div>
             <div class="right_area">
                 <a href = "login.php" class = "logout_btn">Logout</a>
             </div>
         </header>
         <div class = "sidebar">
-            <center><img src = "../assets/deniz.jpg" class = "profile_image"><h4><?php echo $_SESSION["determinator"];?></h4></center>  
+            <center><img src = "../assets/deniz.jpg" class = "profile_image"><h4>DevMDeniz</h4></center>  
                 <a href = "#"><i class="fas fa-desktop"></i><span>Visitor Number</span></a>
                 <a href = "../system/admindeterminator.php?determinator=create"><i class="fas fa-cogs"></i><span>Create Visitor</span></a>
                 <a href = "../system/admindeterminator.php?determinator=update"><i class="fas fa-table"></i><span>Update Visitor</span></a>
