@@ -35,7 +35,19 @@
         </div>
 
 
-        <div class = "content"></div>
+        <div class = "content">
+            <?php
+            if($_SESSION["determinator"] == "dashboard") {
+                include("./sections/dashboard.php");
+            } else if($_SESSION["determinator"] == "create") {
+                include("./sections/create.php");
+            } else if($_SESSION["determinator"] == "update") {
+                include("./sections/update.php");
+            } else if($_SESSION["determinator"] == "delete") {
+                include("./sections/delete.php");
+            } 
+            ?>
+        </div>
 
 
     </body>
