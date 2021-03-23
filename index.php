@@ -18,12 +18,13 @@ $outputs = $lastvisitornumber->fetch_array();
         <div id = "image"></div>
         <div id = "container">
             <div id = "titleText"><h1 id = "text">Welcome to Isil Collage Robotics Coding Stand</h1>
-                                  <h3 id = "text2">Total number of visitors</h3></div>
+            <h3 class = "text2">Total number of visitors</h3></div>
             <div id = "circles">
               <div class = "one" id="second">
                 <h3 class = "day"><?php echo $outputs[1]; ?></h3>
               </div>
            </div>
+              <h3 class = "text2 textleft">Standımızı Ziyaret Eden Toplam Ziyaretçi Sayısı</h3>
         </div>
     <br>
     <br>
