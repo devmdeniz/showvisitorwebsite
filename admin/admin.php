@@ -28,7 +28,7 @@
         </header>
         <div class = "sidebar">
             <center><img src = "../assets/deniz.jpg" class = "profile_image"><h4>DevMDeniz</h4></center>  
-                <a href = "#"><i class="fas fa-desktop"></i><span>Visitor Number</span></a>
+                <a href = "../system/admindeterminator.php?determinator=dashboard"><i class="fas fa-desktop"></i><span>Visitor Number</span></a>
                 <a href = "../system/admindeterminator.php?determinator=create"><i class="fas fa-cogs"></i><span>Create Visitor</span></a>
                 <a href = "../system/admindeterminator.php?determinator=update"><i class="fas fa-table"></i><span>Update Visitor</span></a>
                 <a href = "../system/admindeterminator.php?determinator=delete"><i class="fas fa-th"></i><span>Delete Visitor</span></a>
