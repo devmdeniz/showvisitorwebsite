@@ -14,7 +14,7 @@
 
    if ($conn->query($sql) === TRUE) {
         echo "Succesfull UPDATE";
-        header("Location: ../index.php");
+        header("Location: ../admin/admin.php");
 
     } 
     else {
