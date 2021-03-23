@@ -36,14 +36,6 @@ $outputs = $lastvisitornumber->fetch_array();
     <br>
     <br>
     <br>
-    <form action="system/update.php" method="post">
-      <input pattern="\d*" type="text" placeholder="Enter the Visitor" name="updatenumber" required>
-      <button type="submit">Save Visitors</button>
-    </form>
-    <form action="system/delete.php" method="post">
-      <input pattern="\d*" type="text" placeholder="Delete the Visitor" name="deletenumber" required>
-      <button type="submit">Delete Visitors</button>
-    </form>
 
 
 
